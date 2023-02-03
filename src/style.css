@@ -49,4 +49,11 @@ img {
   .description {
     margin: 0 auto;
   }
+  h1 {
+    font-size: 56px;
+  }
+}
+
+.about-me {
+    text-align: center;
 }
