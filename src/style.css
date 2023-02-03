@@ -32,3 +32,9 @@ h1 {
     padding: 15px 30px;
     background-color: #215A0C;
 }
+
+img {
+    width: 500px;
+    border-radius: 4px;
+    border: 1px solid #F3F2ED;
+}
