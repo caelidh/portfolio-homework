@@ -15,6 +15,12 @@ h1 {
     font-weight: bold;
 }
 
+.contact-page-h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    text-align: center;
+}
+
 .hero h2 {
     font-family: var(--default-heading-font);
     font-size: 24px;
