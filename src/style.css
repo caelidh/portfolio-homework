@@ -1,5 +1,6 @@
 :root {
     --background-box-color: #F3F2ED;
+    --branding-color: #215A0C;
     --default-heading-font: "Poppins", sans-serif;
 }
 
@@ -80,3 +81,30 @@ h4, h5 {
     font-family: var(--default-heading-font);
 }
 
+footer .email-address {
+    font-size: 48px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+footer .email-address a:hover{
+    color: var(--branding-color);
+transition: all 100ms ease-in-out;
+}
+
+footer .social-links a {
+    text-decoration: none;
+    color: var(--branding-color);
+    font-size: 30px;
+    background-color: var(--background-box-color);
+    margin: 30px;
+    padding: 8px 20px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    background-color: var(--branding-color);
+    color: var(--background-box-color)
+}
